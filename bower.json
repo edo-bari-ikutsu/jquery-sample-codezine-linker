@@ -1,0 +1,27 @@
+{
+  "name": "jquery-sample-codezine-linker",
+  "version": "1.0.0",
+  "authors": [
+    "Eiichi YOSHIKAWA"
+  ],
+  "description": "jQuery Plugin Sample for CodeZine",
+  "main": "js/jquery.sample.codezine.linker.js",
+  "keywords": [
+    "Bower",
+    "jQuery",
+    "CodeZine"
+  ],
+  "license": "MIT",
+  "homepage": "http://codezine.jp",
+  "ignore": [
+    "index.html",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

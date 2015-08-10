@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/jquery.sample.codezine.linker.js"></script>
+    
+    <script>
+        // プラグインを実行 ...（1）
+        $(function(){
+            $(".codezine").codezine();
+        });
+    </script>
+    
+    <title>Codezine Sample jQuery Plugin</title>
+</head>
+<body>
+    <h1>Codezine Sample jQuery Plugin</h1>
+    <p>↓プラグインが追加したリンク<p>
+    <div class="codezine"></div> <!-- リンクが挿入される要素 ...（2）-->
+    <p>↑プラグインが追加したリンク<p>
+</body>
+</html>
